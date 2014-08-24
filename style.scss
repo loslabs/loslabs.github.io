@@ -341,27 +341,14 @@ footer {
   -webkit-transition: 0.08s ease-in;
   text-align: center;
   padding: 10px;
+
 }
 
 .btn:hover {
-  color: whitesmoke;
+  background-color: rgba(67, 102, 217, 0.8);
+
 }
 
-.btn:before {
-  content: "";
-  position: absolute;
-  background: -webkit-linear-gradient(92deg, #4366d9, #53a0fd);
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 100%;
-  z-index: -1;
-  -webkit-transition: top 0.09s ease-in;
-}
-
-.btn:hover:before {
-  top: 0;
-}
 
 
 /* Start Rocket */
